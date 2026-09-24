@@ -1,4 +1,5 @@
 name: Deploy VoxShield to GitHub Pages
+# Rebuild and publish the Vite dist artifact on every main branch update.
 
 on:
   push:
