@@ -79,6 +79,25 @@
 .waveform i:nth-child(3n) {
   background: #c3adee !important;
 }
+.severity-badge,
+.phase-badge,
+.demo-pill,
+.window-tag {
+  background: #eaf6fd !important;
+  border-color: #b9dff5 !important;
+  color: #4c8bb2 !important;
+}
+.outline-button,
+.context-panel .outline-button,
+.full-width.outline-button {
+  background: #ffffff !important;
+  border-color: #ffb8b0 !important;
+  color: #ed6468 !important;
+}
+.outline-button svg,
+.context-panel .outline-button svg {
+  color: #ed6468 !important;
+}
 .alert-icon {
   background: #ffd6d0 !important;
   color: #e95f63 !important;
