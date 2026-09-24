@@ -15,6 +15,83 @@
     radial-gradient(circle at 50% 100%, #1e4238, transparent 55%), #151a17;
 }
 
+/* Final reference palette override. */
+.app-shell,
+.main-content {
+  background: #fff9f5 !important;
+}
+.sidebar,
+.topbar,
+.panel,
+.engine-card,
+.fusion,
+.incident-header,
+.incident-scores div,
+.enrollment-card,
+.steps-card,
+.privacy-controls,
+.privacy-flow,
+.recommendation-panel {
+  background: #ffffff !important;
+  border-color: #f0e4de !important;
+}
+.topbar {
+  background: #ffffffd9 !important;
+}
+.call-banner,
+.live-hero {
+  background: linear-gradient(110deg, #fff0ec, #ffffff 68%, #eef9f1) !important;
+  border-color: #ffd2ca !important;
+}
+.alert-panel {
+  background: linear-gradient(150deg, #fff3f1, #ffffff) !important;
+  border-color: #ffc5bf !important;
+}
+.primary-button {
+  background: #ff6f72 !important;
+  color: #ffffff !important;
+}
+.outline-button {
+  background: #ffffff !important;
+  border-color: #ffc4bd !important;
+  color: #e65e62 !important;
+}
+.nav-item:hover,
+.nav-item.active {
+  background: #ffe4df !important;
+  color: #e95f63 !important;
+}
+.nav-item.active {
+  box-shadow: inset 3px 0 #ff6f72 !important;
+}
+.gauge-ring:before {
+  background: #ffffff !important;
+}
+.risk-gauge .gauge-ring {
+  background: conic-gradient(
+    #ff6f72 0 var(--risk),
+    #f8ddd7 var(--risk) 360deg
+  ) !important;
+}
+.waveform i {
+  background: #8cc9ed !important;
+}
+.waveform i:nth-child(3n) {
+  background: #c3adee !important;
+}
+.alert-icon {
+  background: #ffd6d0 !important;
+  color: #e95f63 !important;
+}
+.vad-status {
+  background: #eefaf3 !important;
+  border-color: #bce7ce !important;
+}
+.record-orb {
+  background: radial-gradient(circle, #ffd8d1, #fff7f3 70%) !important;
+  border-color: #ffaaa1 !important;
+}
+
 /* Final reference palette override. Keep this last so legacy rules cannot win. */
 .app-shell,
 .main-content {
@@ -2764,4 +2841,60 @@
 .privacy-flow {
   background:
     radial-gradient(circle at 50% 100%, #1e4238, transparent 55%), #151a17;
+}
+
+/* Last palette layer: overrides legacy theme declarations above. */
+.app-shell,
+.main-content {
+  background: #fff9f5 !important;
+}
+.sidebar,
+.topbar,
+.panel,
+.engine-card,
+.fusion,
+.incident-header,
+.incident-scores div,
+.enrollment-card,
+.steps-card,
+.privacy-controls,
+.privacy-flow,
+.recommendation-panel {
+  background: #ffffff !important;
+  border-color: #f0e4de !important;
+}
+.topbar {
+  background: #ffffffd9 !important;
+}
+.call-banner,
+.live-hero {
+  background: linear-gradient(110deg, #fff0ec, #ffffff 68%, #eef9f1) !important;
+  border-color: #ffd2ca !important;
+}
+.primary-button {
+  background: #ff6f72 !important;
+  color: #ffffff !important;
+}
+.nav-item:hover,
+.nav-item.active {
+  background: #ffe4df !important;
+  color: #e95f63 !important;
+}
+.nav-item.active {
+  box-shadow: inset 3px 0 #ff6f72 !important;
+}
+.gauge-ring:before {
+  background: #ffffff !important;
+}
+.risk-gauge .gauge-ring {
+  background: conic-gradient(
+    #ff6f72 0 var(--risk),
+    #f8ddd7 var(--risk) 360deg
+  ) !important;
+}
+.waveform i {
+  background: #8cc9ed !important;
+}
+.waveform i:nth-child(3n) {
+  background: #c3adee !important;
 }
